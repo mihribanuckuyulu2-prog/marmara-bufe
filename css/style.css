@@ -101,19 +101,20 @@ header .container {
 /* Navigation */
 nav ul {
   display: flex;
-  gap: 32px;
   list-style: none;
   margin: 0;
+  gap: 4px;
 }
 
 nav a {
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  transition: color var(--transition);
-  padding: 8px 0;
+  transition: color 0.2s;
+  padding: 8px 14px;
+  display: block;
 }
 
 nav a:hover {
@@ -569,7 +570,7 @@ footer address a {
   nav ul {
     display: none;
     position: absolute;
-    top: 72px;
+    top: 70px;
     left: 0;
     right: 0;
     flex-direction: column;
