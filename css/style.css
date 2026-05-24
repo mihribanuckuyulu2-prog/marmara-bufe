@@ -60,6 +60,11 @@ header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
+header .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .header-inner {
   display: flex;
   align-items: center;
@@ -69,21 +74,29 @@ header {
 
 .site-title {
   font-family: 'Georgia', serif;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #fff;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
   display: flex;
   align-items: center;
   gap: 10px;
+  text-transform: uppercase;
 }
 
 .site-title::before {
   content: '';
   display: block;
   width: 4px;
-  height: 28px;
+  height: 32px;
   background: var(--terracotta);
   border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.site-title span {
+  color: var(--terracotta);
+  font-weight: 400;
+  font-style: italic;
 }
 
 .site-title span {
