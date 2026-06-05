@@ -3,11 +3,8 @@ var menu = document.getElementById('nav-menu');
 var button = document.querySelector('.nav-toggle');
 
 button.onclick = function () {
-  if (menu.classList.contains('open')) {
-    menu.classList.remove('open');
-  } else {
-    menu.classList.add('open');
-  }
+  var isOpen = menu.classList.toggle('open');
+  button.setAttribute('aria-expanded', isOpen);
 };
 
 // Linke tıklayınca menüyü kapat
@@ -15,6 +12,7 @@ var links = document.querySelectorAll('nav a');
 for (var i = 0; i < links.length; i++) {
   links[i].onclick = function () {
     menu.classList.remove('open');
+    button.setAttribute('aria-expanded', 'false');
   };
 }
 

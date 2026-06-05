@@ -9,9 +9,9 @@
   --navy-light: #1a2d4a;
   --cream: #f5efe6;
   --cream-dark: #e8dccc;
-  --terracotta: #c1694f;
+  --terracotta: #a8533b;
   --terracotta-light: #d4866e;
-  --olive: #7a8a5c;
+  --olive: #5c6a42;
   --olive-light: #9aae78;
   --sky: #d4eaf7;
   --white: #ffffff;
@@ -678,7 +678,7 @@ footer address a {
   flex-wrap: wrap;
   gap: 12px;
   font-size: 0.8rem;
-  color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.55);
 }
 
 /* Reveal animation */
