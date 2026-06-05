@@ -136,7 +136,11 @@ var translations = {
   'footer-email': { tr: 'info@aykutbufe.com', en: 'info@aykutbufe.com' },
   'copyright': { tr: '© 2026 Aykut Büfe. Tüm hakları saklıdır.', en: '© 2026 Aykut Büfe. All rights reserved.' },
   'footer-tagline': { tr: 'Ada\'nın Lezzet Molası', en: 'Island\'s Flavor Break' },
-  'lang-btn': { tr: 'TR', en: 'EN' }
+  'lang-btn': { tr: 'TR', en: 'EN' },
+  'nav-toggle-label': { tr: 'Menüyü aç/kapat', en: 'Toggle menu' },
+  'hero-arrow-left': { tr: 'Önceki fotoğraf', en: 'Previous photo' },
+  'hero-arrow-right': { tr: 'Sonraki fotoğraf', en: 'Next photo' },
+  'lang-toggle-label': { tr: 'Dil değiştir', en: 'Change language' }
 };
 
 var currentLang = localStorage.getItem('preferred-lang') || 'tr';
@@ -153,6 +157,9 @@ function setLanguage(lang) {
       } else {
         el.textContent = t[lang];
       }
+    }
+    if (el.hasAttribute('aria-label') && t) {
+      el.setAttribute('aria-label', t[lang]);
     }
   }
   document.documentElement.lang = lang;
