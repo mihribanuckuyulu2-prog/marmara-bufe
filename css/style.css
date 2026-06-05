@@ -666,7 +666,7 @@ footer address {
 }
 
 footer address a {
-  color: var(--terracotta);
+  color: var(--terracotta-light);
 }
 
 .footer-bottom {
