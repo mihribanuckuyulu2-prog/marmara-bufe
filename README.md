@@ -12,7 +12,7 @@ Marmara Adası'nda hizmet veren Aykut Büfe için hazırlanmış tanıtım web s
 - CSS3 (Flexbox, CSS değişkenleri, responsive tasarım)
 - JavaScript (mobil menü toggle, scroll reveal animasyonu)
 - Web3Forms (iletişim formu)
-- Netlify (HTTPS yayın)
+- GitHub Pages (HTTPS yayın)
 
 ## Özellikler
 
@@ -30,28 +30,43 @@ Marmara Adası'nda hizmet veren Aykut Büfe için hazırlanmış tanıtım web s
 ```
 /
 ├── index.html
+├── README.md
 ├── css/
 │   └── style.css
 ├── js/
 │   └── script.js
-├── images/
-│   ├── favicon.svg
-│   └── hero-bg.jpg
-└── README.md
+└── images/
+    ├── favicon.svg
+    ├── menu-bg.jpg
+    ├── slide-1.jpg
+    ├── slide-2.JPG
+    ├── slide-3.JPG
+    ├── slide-4.jpg
+    ├── slide-5.jpg
+    └── menu/
+        ├── ciborek.jpg
+        ├── gozleme.avif
+        ├── karisik-tost.jpg
+        ├── kofte-ekmek.jpg
+        ├── kumru-ekmek.jpg
+        ├── kumru-lavas.jpg
+        ├── sucuk-ekmek.jpg
+        ├── tavuk-doner-ekmek.jpg
+        └── tavuk-doner-lavas.jpg
 ```
 
 ## Canlı Site
 
-[aykutbufe.netlify.app](https://aykutbufe.netlify.app)
+[mihribanuckuyulu2-prog.github.io/marmara-bufe/](https://mihribanuckuyulu2-prog.github.io/marmara-bufe/)
 
 ## Kurulum
 
 Projeyi yerelde çalıştırmak için:
 
 ```bash
-git clone https://github.com/KULLANICI_ADI/aykut-bufe.git
+git clone https://github.com/mihribanuckuyulu2-prog/marmara-bufe.git
 cd aykut-bufe
 # index.html'i tarayıcıda aç
 ```
 
-İletişim formunun çalışması için `index.html` içindeki `YOUR_ACCESS_KEY_HERE` yerine [Web3Forms](https://web3forms.com)'dan alacağınız access key'i yazın.
+İletişim formu [Web3Forms](https://web3forms.com) ile entegre edilmiştir.
