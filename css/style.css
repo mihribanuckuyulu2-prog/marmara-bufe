@@ -781,4 +781,19 @@ footer address a {
   #hero {
     padding: 100px 20px 60px;
   }
+
+  .hero-arrow {
+    top: 40%;
+    width: 36px;
+    height: 36px;
+    font-size: 1.4rem;
+  }
+
+  .hero-arrow.right {
+    right: 8px;
+  }
+
+  .hero-arrow.left {
+    left: 8px;
+  }
 }
