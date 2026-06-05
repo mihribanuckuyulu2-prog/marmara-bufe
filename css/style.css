@@ -169,7 +169,7 @@ nav a:hover {
 
 .hero-arrow {
   position: absolute;
-  top: 50%;
+  top: 38%;
   transform: translateY(-50%);
   z-index: 2;
   background: rgba(255,255,255,0.15);
@@ -783,7 +783,7 @@ footer address a {
   }
 
   .hero-arrow {
-    top: 40%;
+    top: 30%;
     width: 36px;
     height: 36px;
     font-size: 1.4rem;
