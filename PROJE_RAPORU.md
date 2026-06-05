@@ -2,7 +2,7 @@
 
 **Hazırlayan:** Mihriban Uçkuyulu  
 **Tarih:** 5 Haziran 2026  
-**Ders:** Web Tasarımı ve Programlama  
+**Ders:** İleri Web Tasarımı  
 **Canlı Site:** https://mihribanuckuyulu2-prog.github.io/marmara-bufe/  
 **GitHub:** https://github.com/mihribanuckuyulu2-prog/marmara-bufe
 
