@@ -38,7 +38,7 @@ Müşterinin temel ihtiyaçları şunlardır:
 
 - **1. Görüşme:** 24 Mayıs 2026 — İhtiyaç analizi ve içerik toplama (telefon)
 - **2. Görüşme:** 28 Mayıs 2026 — İlk taslak sunumu ve geri bildirim (çevrimiçi)
-- **3. Görüşme:** 3 Haziran 2026 — Son revizyonlar ve site yayına alma (telefon)
+- **3. Görüşme:** 4 Haziran 2026 — Son revizyonlar ve site yayına alma (telefon)
 
 ---
 
